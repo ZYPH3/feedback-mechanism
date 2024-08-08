@@ -102,7 +102,7 @@ export default function Home() {
       gap={2}
       bgcolor="#CACCD1"
     >
-      <Typography variant="h3" sx={gradientTitleStyle}>
+      <Typography variant="h2" sx={gradientTitleStyle}>
         Chatbot Feedback
       </Typography>
       <Modal 
@@ -152,7 +152,7 @@ export default function Home() {
             </Typography>
           </Box>
           <Button variant="contained" onClick={()=>{handleOpen()}} sx={gradientButtonStyle}>
-            Add New Review
+            Add A Review
           </Button>
         </Box>
         <Stack width="800px" height = "300px" spacing={2} overflow="auto">
@@ -168,7 +168,7 @@ export default function Home() {
               padding={5}
               borderBottom="1px solid #333"
             >
-              <Typography variant='h3' color="#black" textAlign="center">
+              <Typography variant='h4' color="#black" textAlign="center">
                 {name.charAt(0).toUpperCase() + name.slice(1)}
               </Typography>
             </Box>
